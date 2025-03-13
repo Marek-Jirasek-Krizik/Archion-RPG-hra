@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inventar">
+
+
+    <ImageView
+        android:id="@+id/inventar_obr"
+        android:layout_width="219dp"
+        android:layout_height="471dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/inventar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/batoh_tlacitko_otevr"
+        android:layout_width="73dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="bagr"
+        android:src="@drawable/batoh_open"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />  <!-- Add a content description -->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
